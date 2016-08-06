@@ -10,7 +10,12 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+
+
+    @IBOutlet weak var ISBN: UILabel!
+    @IBOutlet weak var titulo: UITextView!
+    @IBOutlet weak var autor: UILabel!
+    @IBOutlet weak var portada: UIImageView!
 
 
     var detailItem: AnyObject? {
@@ -23,14 +28,19 @@ class DetailViewController: UIViewController {
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.valueForKey("timeStamp")!.description
+            if let label = self.ISBN {
+                ISBN.text = detail.valueForKey("isbn")!.description
+                titulo.text = detail.valueForKey("titulo")!.description
+                autor.text = detail.valueForKey("autor")!.description
+                portada.image = UIImage(data: detail.valueForKey("portada") as! NSData)
             }
+            
         }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "INFORMACION DEL LIBRO"
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
     }

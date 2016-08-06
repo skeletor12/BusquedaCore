@@ -14,6 +14,9 @@
 		EE54301C1D5479E8005E475B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE54301A1D5479E8005E475B /* Main.storyboard */; };
 		EE54301E1D5479E8005E475B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE54301D1D5479E8005E475B /* Assets.xcassets */; };
 		EE5430211D5479E8005E475B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE54301F1D5479E8005E475B /* LaunchScreen.storyboard */; };
+		EE5430291D547B74005E475B /* ViewBuscar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5430281D547B74005E475B /* ViewBuscar.swift */; };
+		EE54302B1D547BC1005E475B /* libros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54302A1D547BC1005E475B /* libros.swift */; };
+		EE54302D1D547E65005E475B /* url.png in Resources */ = {isa = PBXBuildFile; fileRef = EE54302C1D547E65005E475B /* url.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		EE54301D1D5479E8005E475B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE5430201D5479E8005E475B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE5430221D5479E8005E475B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5430281D547B74005E475B /* ViewBuscar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBuscar.swift; sourceTree = "<group>"; };
+		EE54302A1D547BC1005E475B /* libros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libros.swift; sourceTree = "<group>"; };
+		EE54302C1D547E65005E475B /* url.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = url.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +70,11 @@
 				EE54301A1D5479E8005E475B /* Main.storyboard */,
 				EE54301D1D5479E8005E475B /* Assets.xcassets */,
 				EE54301F1D5479E8005E475B /* LaunchScreen.storyboard */,
+				EE54302C1D547E65005E475B /* url.png */,
 				EE5430221D5479E8005E475B /* Info.plist */,
 				EE5430131D5479E8005E475B /* BusquedaCore.xcdatamodeld */,
+				EE5430281D547B74005E475B /* ViewBuscar.swift */,
+				EE54302A1D547BC1005E475B /* libros.swift */,
 			);
 			path = BusquedaCore;
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5430211D5479E8005E475B /* LaunchScreen.storyboard in Resources */,
+				EE54302D1D547E65005E475B /* url.png in Resources */,
 				EE54301E1D5479E8005E475B /* Assets.xcassets in Resources */,
 				EE54301C1D5479E8005E475B /* Main.storyboard in Resources */,
 			);
@@ -143,6 +153,8 @@
 			files = (
 				EE5430151D5479E8005E475B /* BusquedaCore.xcdatamodeld in Sources */,
 				EE5430121D5479E8005E475B /* AppDelegate.swift in Sources */,
+				EE54302B1D547BC1005E475B /* libros.swift in Sources */,
+				EE5430291D547B74005E475B /* ViewBuscar.swift in Sources */,
 				EE5430171D5479E8005E475B /* MasterViewController.swift in Sources */,
 				EE5430191D5479E8005E475B /* DetailViewController.swift in Sources */,
 			);
